@@ -131,19 +131,19 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - W
+  - EP ON
   - ''
   - ''
   - ''
   - ''
   - ''
   - EP TOG
-  - RGB HUD
+  - RGB BRI
   - RGB HUI
-  - RGB SAD
   - RGB SAI
+  - RGB SPI
   - RGB EFF
-  - ''
+  - EP OFF
   - ''
   - ''
   - ''
@@ -151,17 +151,17 @@ layers:
   - ''
   - ''
   - RGB BRD
-  - RGB BRI
+  - RGB HUD
+  - RGB SAD
+  - RGB SPD
+  - RGB EFR
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&studio_unlock'
   - ''
   - ''
   - ''
