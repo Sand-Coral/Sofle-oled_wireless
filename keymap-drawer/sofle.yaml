@@ -14,7 +14,7 @@ layers:
   - KP 8
   - KP 9
   - KP 0
-  - ''
+  - INS
   - ''
   - ''
   - PAGE UP
@@ -47,8 +47,8 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
-  - ''
+  - KP NUMLOCK
+  - SCROLLLOCK
   - ''
   - ''
   - ''
