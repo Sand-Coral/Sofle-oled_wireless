@@ -50,7 +50,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
-                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+                <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         lower_layer {
@@ -72,7 +72,7 @@
                          &trans           &trans           &trans           &trans           &trans    &trans  &trans            &trans             &trans           &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(K_SCROLL_DOWN) LC(K_SCROLL_UP)>;
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_OUT C_AC_ZOOM_IN>;
         };
 
         raise_layer {
@@ -95,7 +95,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOLUME_UP>,
-                <&inc_dec_kp LC(LS(K_SCROLL_UP)) LC(LS(K_SCROLL_DOWN))>;
+                <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
 
         adjust_layer {
